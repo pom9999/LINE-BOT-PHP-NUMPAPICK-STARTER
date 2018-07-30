@@ -14,7 +14,7 @@ function send_LINE($msg){
       $url = 'https://api.line.me/v2/bot/message/push';
       $data = [
 
-        'to' => 'U4c04d3b6a02e9e4629230f20293cf6d8',
+        'to' => 'watcharin.k-pom',
         'messages' => [$messages],
       ];
       $post = json_encode($data);
